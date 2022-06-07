@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/config.ts"],"sourcesContent":["export const eslintConfig = {\n  a: 1,\n};\n"],"mappings":";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,eAAe;AAAA,EAC1B,GAAG;AACL;","names":[]}

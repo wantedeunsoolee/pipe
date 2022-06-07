@@ -16,24 +16,17 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.ts
-var src_exports = {};
-__export(src_exports, {
-  divide: () => divide,
-  sum: () => sum
+// src/config.ts
+var config_exports = {};
+__export(config_exports, {
+  eslintConfig: () => eslintConfig
 });
-module.exports = __toCommonJS(src_exports);
-
-// src/utils.ts
-function sum(a, b) {
-  return a + b;
-}
-function divide(a, b) {
-  return a / b;
-}
+module.exports = __toCommonJS(config_exports);
+var eslintConfig = {
+  a: 1
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  divide,
-  sum
+  eslintConfig
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=config.js.map
