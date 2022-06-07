@@ -5,4 +5,4 @@ var eslintConfig = {
 export {
   eslintConfig
 };
-//# sourceMappingURL=config.js.map
+//# sourceMappingURL=config.mjs.map

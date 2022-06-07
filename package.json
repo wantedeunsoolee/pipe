@@ -7,12 +7,21 @@
     "dist"
   ],
   "exports": {
-    "./config": "./dist/config.js"
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./config": {
+      "require": "./dist/config.js",
+      "import": "./dist/config.mjs",
+      "types": "./dist/config.d.ts"
+    }
   },
   "version": "0.0.0",
   "scripts": {
     "dev": "tsup --format esm,cjs --dts --legacy-output --watch",
-    "build": "tsup --format esm,cjs --dts --legacy-output",
+    "build": "tsup --format esm,cjs --dts --clean",
     "release": "yarn build && yarn publish --access=public",
     "lint": "TIMING=1 eslint src/**/*.ts* --fix"
   },

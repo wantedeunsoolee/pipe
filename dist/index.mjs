@@ -9,4 +9,4 @@ export {
   divide,
   sum
 };
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.mjs.map
