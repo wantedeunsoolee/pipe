@@ -25,7 +25,7 @@
       "src/index.ts",
       "src/config.ts"
     ],
-    "splitting": false,
+    "splitting": true,
     "sourcemap": true,
     "clean": true
   },
