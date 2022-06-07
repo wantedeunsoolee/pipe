@@ -7,11 +7,7 @@
     "dist"
   ],
   "exports": {
-    "./config": {
-      "types": "./dist/config.d.ts",
-      "module": "./dist/esm/config.js",
-      "default": "./dist/config.js"
-    }
+    "./config": "./dist/config.js"
   },
   "version": "0.0.0",
   "scripts": {
